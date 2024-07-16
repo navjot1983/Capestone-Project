@@ -15,6 +15,7 @@
         }
 
 
+        
   var sidemeu = document.getElementById("sidemenu");
   function openmenu(){
     sidemeu.style.right="0";
