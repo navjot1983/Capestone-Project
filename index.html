@@ -181,7 +181,7 @@
         
      </div>
      <div class="copyright">
-      <p>Copyright @ navjot. Made <i class="fa-solid fa-heart"></i> My project</p>
+      <p>Copyright @ NK. Made  First <i class="fa-solid fa-keyboard"></i>  project</p>
      </div>
 </div>
 
@@ -189,7 +189,7 @@
   const scriptURL = 'https://script.google.com/macros/s/AKfycbzziiz9ZSWrJ9ftDnPKOKpuTVd-0wncOhu5qzXCKGO798LhzdNHkAqNtEFWprRONxKO/exec'
   const form = document.forms['submit-to-google-sheet']
   const msg = document.getElementById("msg")
-  
+
   form.addEventListener('submit', e => {
     e.preventDefault()
     fetch(scriptURL, { method: 'POST', body: new FormData(form)})
